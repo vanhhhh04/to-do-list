@@ -3,6 +3,10 @@ from flask_login import UserMixin
 # // hiểu về usermixin
 # được sử dụng để cung cấp các phương thức và thuộc tính cơ bản liên quan đến người dùng trong các ứng dụng web.
 # trong database
+# MODELS Việc sử dụng models trong SQLAlchemy cho phép bạn định nghĩa các trường (columns) của bảng,
+#  các ràng buộc (constraints), các liên kết (relationships) và các phương thức để thao tác với dữ liệu
+#  trong bảng đó. Các trường (columns) của bảng được định nghĩa bởi các thuộc tính của model, với mỗi thuộc
+#  tính tương ứng với một trường trong bảng
 
 from appdemo import db    
 from sqlalchemy.sql import func 
